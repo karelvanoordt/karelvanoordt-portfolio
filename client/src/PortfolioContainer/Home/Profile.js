@@ -31,6 +31,7 @@ export default function Profile() {
             <div className='profile-details-role'>
               <span className='primary-text'>
                 {" "}
+
                 <h1>
                   {" "}
                   <Typical
@@ -43,15 +44,23 @@ export default function Profile() {
                     ]}
                   />
                 </h1>
+                <span className='profile-role-tagline'>
+                  Knack of building applications with front and back end operations.
+                </span>
               </span>
             </div>
-
+            <div className='profile-options'>
+              <button className='btn primary-btn'>
+                {" "}
+                Hire Me {" "}
+              </button>
+              <a href="karelvanoordt_RESUME.pdf" download='karelvanoordt_RESUME.pdf' >
+                <button className='btn highlighted-btn'>Get Resume</button>
+              </a>
+            </div>
           </div>
-
         </div>
-
       </div>
-
     </div>
   )
 }
