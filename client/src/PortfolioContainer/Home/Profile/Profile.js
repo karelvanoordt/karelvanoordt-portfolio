@@ -1,6 +1,6 @@
 import React from 'react';
 import Typical from 'react-typical';
-import './Profile.css';
+import '../Profile/Profile.css';
 
 export default function Profile() {
   return (
@@ -42,7 +42,7 @@ export default function Profile() {
                       "Full Stack Developer 🧑🏻‍💻", 1300,
                       "Ruby Enthusiast 💎", 1300,
                       "Pro cyclist wannabe 🚴🏻", 1300,
-                      "Diehard F1 fan 🏎", 1300,
+                      "Die-hard F1 fan 🏎", 1300,
                     ]}
                   />
                 </h1>
