@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Satisfy&display=swap');
+
 .profile-container {
     display: flex;
     align-items: center;
@@ -5,7 +7,6 @@
     justify-content: center;
     height: 10%;
     min-height: fit-content;
-    background-image: url('../../assets/Home/bg.jpg');
 }
 
 .profile-parent {
@@ -27,7 +28,7 @@
 
 .profile-details-role h1 {
     font-size: 40px;
-    font-family: cursive;
+    font-family: "Roboto Mono";
 }
 
 .primary-text {
@@ -68,7 +69,7 @@
 .profile-picture-background {
     height: 92%;
     width: 92%;
-    background-image: url('../../assets/Home/profilephoto.JPG');
+    background-image: url('../../../assets/Home/profilephoto.JPG');
     background-size: cover;
     border-radius:  50%;
     background-repeat: no-repeat;
@@ -147,4 +148,11 @@
     .profile-details {
         width: 90%;
     }
+}
+
+.under-construction {
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: "Roboto Mono";
+    color: var(--dark-orange)
 }

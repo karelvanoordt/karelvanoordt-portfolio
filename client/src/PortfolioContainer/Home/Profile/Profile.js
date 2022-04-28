@@ -1,6 +1,6 @@
 import React from 'react';
 import Typical from 'react-typical';
-import './Profile.css';
+import '../Profile/Profile.css';
 
 export default function Profile() {
   return (
@@ -42,25 +42,30 @@ export default function Profile() {
                       "Full Stack Developer 🧑🏻‍💻", 1300,
                       "Ruby Enthusiast 💎", 1300,
                       "Pro cyclist wannabe 🚴🏻", 1300,
-                      "Diehard F1 fan 🏎", 1300,
+                      "Die-hard F1 fan 🏎", 1300,
                     ]}
                   />
                 </h1>
                 <span className='profile-role-tagline'>
-                  Knack of building applications with front and back end operations.
+                  Breaking into tech with more than 7 years of professional experience.
                 </span>
-              </span>
+               </span>
             </div>
 
             <div className='profile-options'>
-              <button className='btn primary-btn'>
-                {" "}
-                Hire Me {" "}
-              </button>
+              <a href='https://shorturl.at/dyC45' target='_blank' >
+                <button className='btn primary-btn'>
+                  {" "}
+                  Get in touch {" "}
+                </button>
+              </a>
               <a href="karelvanoordt_RESUME.pdf" download='karelvanoordt_RESUME.pdf' >
                 <button className='btn highlighted-btn'>Get Resume</button>
               </a>
             </div>
+            <h4 className='under-construction'>
+                  Website Portfolio still under construction
+            </h4>
           </div>
         </div>
         <div className='profile-picture'>
