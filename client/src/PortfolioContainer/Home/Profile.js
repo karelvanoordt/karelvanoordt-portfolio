@@ -1,6 +1,6 @@
 import React from 'react';
 import Typical from 'react-typical';
-
+import './Profile.css';
 
 export default function Profile() {
   return (
@@ -8,18 +8,20 @@ export default function Profile() {
       <div className='profile-parent'>
         <div className='profile-details'>
           <div className='colz'>
-            <a href='https://medium.com/@karelvanoordt' target="_blank">
-              <i className='fa fa-medium'></i>
-            </a>
-            <a href='https://www.instagram.com/karelvanoordt/' target="_blank">
-              <i className='fa fa-instagram'></i>
-            </a>
-            <a href='https://www.twitter.com/karelvanoordt/' target="_blank">
-              <i className='fa fa-twitter'></i>
-            </a>
-            <a href='https://github.com/karelvanoordt' target="_blank">
-              <i className='fa fa-github-square'></i>
-            </a>
+            <div className='colz-icon'>
+              <a href='https://medium.com/@karelvanoordt' target="_blank">
+                <i className='fa fa-medium'></i>
+              </a>
+              <a href='https://www.instagram.com/karelvanoordt/' target="_blank">
+                <i className='fa fa-instagram'></i>
+              </a>
+              <a href='https://www.twitter.com/karelvanoordt/' target="_blank">
+                <i className='fa fa-twitter'></i>
+              </a>
+              <a href='https://github.com/karelvanoordt' target="_blank">
+                <i className='fa fa-github-square'></i>
+              </a>
+            </div>
 
             <div className='profile-details-name'>
               <span className='primary-text'>
@@ -49,6 +51,7 @@ export default function Profile() {
                 </span>
               </span>
             </div>
+
             <div className='profile-options'>
               <button className='btn primary-btn'>
                 {" "}
@@ -60,6 +63,12 @@ export default function Profile() {
             </div>
           </div>
         </div>
+        <div className='profile-picture'>
+          <div className='profile-picture-background'>
+
+          </div>
+        </div>
+
       </div>
     </div>
   )
