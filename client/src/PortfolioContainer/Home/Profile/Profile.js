@@ -47,20 +47,25 @@ export default function Profile() {
                   />
                 </h1>
                 <span className='profile-role-tagline'>
-                  Knack of building applications with front and back end operations.
+                  Breaking into tech with more than 7 years of professional experience.
                 </span>
-              </span>
+               </span>
             </div>
 
             <div className='profile-options'>
-              <button className='btn primary-btn'>
-                {" "}
-                Hire Me {" "}
-              </button>
+              <a href='https://shorturl.at/dyC45' target='_blank' >
+                <button className='btn primary-btn'>
+                  {" "}
+                  Get in touch {" "}
+                </button>
+              </a>
               <a href="karelvanoordt_RESUME.pdf" download='karelvanoordt_RESUME.pdf' >
                 <button className='btn highlighted-btn'>Get Resume</button>
               </a>
             </div>
+            <h4 className='under-construction'>
+                  Website Portfolio still under construction
+            </h4>
           </div>
         </div>
         <div className='profile-picture'>
