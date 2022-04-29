@@ -64,7 +64,7 @@ export default function Profile() {
               </a>
             </div>
             <h4 className='under-construction'>
-                  Website Portfolio still under construction
+              🚧 Website Portfolio still under construction 🚧
             </h4>
           </div>
         </div>
