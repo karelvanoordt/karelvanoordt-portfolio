@@ -12,14 +12,14 @@ export default function Header() {
     const [showHeaderOptions, setShowHeaderOptions ] = useState(false);
 
     const updateCurrentScreen = (currentScreen) => {
-        if(!currentScreen || !currentScreen.screenInView) {
+        if(!currentScreen || !currentScreen.screenInView) 
             return;
-            let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView);
-        }
-        if(screenIndex < 0) {
+            let screenIndex = GET_SCREEN_INDEX(currentScreen.screenInView)
+        
+            if(screenIndex < 0) 
             return
-        }    
     }
+    
 
     let currentScreenSubscription = ScrollService.currentScreenBroadCaster.subscribe(updateCurrentScreen);
 
@@ -56,10 +56,16 @@ export default function Header() {
   return (
     
     <div>
-        <div className='header-option' onClick={() => setShowHeaderOptions(!showHeaderOptions)}>
+        <div className='header-container' onClick={() => setShowHeaderOptions(!showHeaderOptions)}>
             <div className='header-parent'>
                 <div className='header-hamburger' onClick={() => setShowHeaderOptions(!showHeaderOptions)}>
-                    
+                    <FontAwesomeIcon className='header-hamburger-bars' icon={ faBars } />
+                </div>
+                <div className='header-logo'>
+                    <span>KAREL VAN OORDT</span>
+                </div>
+                <div className={(showHeaderOptions)? 'show-hamburger-options' : 'header-options'}>
+                    {getHeaderOptions()}
                 </div>
             </div>
         </div>
